@@ -1,7 +1,15 @@
 body {
-    background-color: black;
-    color: lightblue;
+  background-color: black;
+  color: lightblue;
 }
 a:link {
-    color: lightblue;
+  color: lightblue;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li::marker {
+  color: purple; /* Lila szín */
 }
