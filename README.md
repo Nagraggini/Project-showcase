@@ -1,2 +1,2 @@
-# All-the-knowledge
-All the knowledge
+# Explore Knowledge
+Explore Knowledge
