@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141313;
+  font-family: Arial, sans-serif;
+}
+.calculator {
+  /* A számológép háttárszíne.*/
+  background-color: #e0b8c7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(19, 17, 17, 0.1);
+}
+.display {
+  /*Itt jelennek meg a számok.*/
+  width: 100%; /*A display szélessége.*/
+  height: 60px; /*A display magassága.*/
+  background-color: #ebe1e6; /*A display háttérszíne.*/
+  color: #1b1111; /*A display szövegszíne.*/
+  text-align: right; /*A szöveg jobbra igazítása.*/
+  padding: 1px; /*A szélétől való távolságot adjuk meg.*/
+  font-size: 24px;
+  border-radius: 6px; /*A display sarkainak lekerekítése.*/
+  margin-bottom: 10px; /*  A display aljától való távolságot adjuk meg.*/
+  font-weight: bold; /* Félkövér szöveg */
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.button {
+  /*Szám gombok színe.*/
+  padding: 20px;
+  background-color: #e745c4;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Félkövér szöveg */
+}
+.button:hover {
+  /*Szám gombok színeha rámegy a felhasználó az egérrel..*/
+  background-color: #ddd;
+}
+.button.operator {
+  /* operátor gombok színe*/
+  background-color: #961d90;
+  color: #0c0b0b;
+  font-weight: bold; /* Félkövér szöveg */
+}
+.button.operator:hover {
+  /* operátor gombok színe, ha rámegy a felhasználó az egérrel.*/
+  background-color: #e6dce4;
+}
