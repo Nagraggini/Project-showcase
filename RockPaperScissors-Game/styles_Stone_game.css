@@ -102,7 +102,7 @@ p {
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Eredmények összesítése konténer */
+/* Eredmények összesítése  egy konténerben */
 .results-container {
   display: flex;
   justify-content: center;
