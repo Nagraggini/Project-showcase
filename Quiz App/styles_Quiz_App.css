@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Középre igazítja a tartalmat */
+  justify-content: center;
+  min-height: 100vh; /* Teljes magasságra állítja az oldalt */
+  margin: 0;
+  background-color: black;
+  /* Ez állítja be az egész oldal háttérszínét */
+}
+
+/*Gombok stílusának beállítása*/
+
+.back-button,
+.submit-button {
+  background-color: #5e1354; /* Gomb háttérszíne */
+  color: black; /* Gomb szövegének színe */
+  border: none; /* Nincs keret */
+  padding: 10px 20px; /* Belső margó */
+  text-align: center; /* Szöveg középre igazítása */
+  text-decoration: none; /* Nincs aláhúzás */
+  display: inline-block; /* Inline blokk elem */
+  font-size: 16px; /* Betűméret */
+  margin: 20px; /* Nagyobb külső margó a gombok között */
+  cursor: pointer; /* Mutató kurzor */
+  border-radius: 5px; /* Lekerekített sarkok */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Áttűnés a háttérszín és árnyék változásakor */
+  font-weight: bold; /* Félkövér szöveg */
+  position: relative; /* Relatív pozíció a fénycsíkhoz */
+  overflow: hidden; /* Elrejtjük a túlcsorduló tartalmat */
+}
+
+.back-button::before .submit-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -200%; /* Kezdetben rejtve */
+  width: 200%;
+  height: 20px; /* Vékony csík */
+  background: rgba(255, 255, 255, 0.8); /* Fényes csík színe */
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.back-button:hover::before,
+submit-button:hover::before {
+  left: 100%; /* Mozgás hover esetén */
+  transition: all 0.5s ease;
+}
+
+.back-button:hover,
+.submit-button:hover {
+  transform: scale(1.05); /* Nagyítás hover esetén */
+  background-color: #b5a9a9; /* Háttérszín változás hover esetén */
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+}
+
+.back-button:focus {
+  background-color: #b5a9a9; /* Háttérszín változás focus esetén */
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+}
+
+/*Lista stílusának beállítása*/
+il,
+ul {
+  color: #cfbbbb;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none; /* Eltünteti a lista pöttyét */
+  padding: 0; /* Eltávolítja az alapértelmezett belső margót */
+  margin: 0; /* Eltávolítja az alapértelmezett külső margót */
+}
+
+li {
+  margin-bottom: 10px; /* Térköz a listaelemek között */
+}
+
+

@@ -3,32 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--A weboldal ikonának beállítása.-->
+    <link rel="website icon" type="webp" href="../website_icon.webp" />
+
     <title>Calculator</title>
     <link rel="stylesheet" href="styles_Calculator.css" />
     <script src="script_Calculator.js"></script>
   </head>
   <body>
     <div class="calculator">
-      <div class="history" id="history">0</div> <!-- Történet megjelenítése -->
+      <div class="history" id="history">0</div>
+      <!-- Történet megjelenítése -->
       <div class="display" id="display">0</div>
       <div class="buttons">
         <button class="button" onclick="appendNumber('7')">7</button>
         <button class="button" onclick="appendNumber('8')">8</button>
         <button class="button" onclick="appendNumber('9')">9</button>
-        <button class="button operator" onclick="chooseOperation('+')">+</button>
+        <button class="button operator" onclick="chooseOperation('+')">
+          +
+        </button>
         <button class="button" onclick="appendNumber('4')">4</button>
         <button class="button" onclick="appendNumber('5')">5</button>
         <button class="button" onclick="appendNumber('6')">6</button>
-        <button class="button operator" onclick="chooseOperation('-')">-</button>
+        <button class="button operator" onclick="chooseOperation('-')">
+          -
+        </button>
         <button class="button" onclick="appendNumber('1')">1</button>
         <button class="button" onclick="appendNumber('2')">2</button>
         <button class="button" onclick="appendNumber('3')">3</button>
-        <button class="button operator" onclick="chooseOperation('*')">*</button>
+        <button class="button operator" onclick="chooseOperation('*')">
+          *
+        </button>
         <button class="button" onclick="appendNumber('.')">.</button>
         <button class="button" onclick="appendNumber('0')">0</button>
         <button class="button" onclick="compute()">=</button>
-        <button class="button operator" onclick="chooseOperation('/')">/</button>
-        <button class="button clear" onclick="clearDisplay()">C</button> <!-- Hosszú törlés gomb -->
+        <button class="button operator" onclick="chooseOperation('/')">
+          /
+        </button>
+        <button class="button clear" onclick="clearDisplay()">C</button>
+        <!-- Hosszú törlés gomb -->
       </div>
     </div>
     <div class="back-button-container">
