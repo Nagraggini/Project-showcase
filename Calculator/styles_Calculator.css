@@ -8,32 +8,34 @@ body {
   position: relative; /* Hozzáadva a relatív pozícionálás */
 }
 .calculator {
-  /* A számológép háttárszíne.*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #e0b8c7;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(19, 17, 17, 0.1);
+  width: 300px; /* Számológép szélessége */
 }
 .display {
-  /*Itt jelennek meg a számok.*/
-  width: 100%; /*A display szélessége.*/
-  height: 60px; /*A display magassága.*/
-  background-color: #ebe1e6; /*A display háttérszíne.*/
-  color: #1b1111; /*A display szövegszíne.*/
-  text-align: right; /*A szöveg jobbra igazítása.*/
-  padding: 1px; /*A szélétől való távolságot adjuk meg.*/
+  width: 100%;
+  height: 60px;
+  background-color: #ebe1e6;
+  color: #1b1111;
+  text-align: right;
+  padding: 10px;
   font-size: 24px;
-  border-radius: 6px; /*A display sarkainak lekerekítése.*/
-  margin-bottom: 10px; /*  A display aljától való távolságot adjuk meg.*/
-  font-weight: bold; /* Félkövér szöveg */
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 .buttons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* 4 oszlopos rács */
   gap: 10px;
+  width: 100%;
 }
 .button {
-  /*Szám gombok színe.*/
   padding: 20px;
   background-color: #e745c4;
   border: none;
@@ -42,20 +44,33 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
   font-weight: bold; /* Félkövér szöveg */
+  text-align: center;
 }
 .button:hover {
-  /*Szám gombok színeha rámegy a felhasználó az egérrel..*/
   background-color: #ddd;
 }
 .button.operator {
-  /* operátor gombok színe*/
   background-color: #961d90;
-  color: #0c0b0b;
-  font-weight: bold; /* Félkövér szöveg */
+  color: #fff;
 }
 .button.operator:hover {
-  /* operátor gombok színe, ha rámegy a felhasználó az egérrel.*/
   background-color: #e6dce4;
+}
+
+/* Aritmetikai műveletek a jobb szélen */
+.buttons .operator {
+  grid-column: 4; /* Az operátor gombok a 4. oszlopba kerülnek */
+}
+
+/* A hosszú törlés gomb (C) */
+.button.clear {
+  grid-column: span 4; /* A törlés gomb 4 oszlopot foglal el */
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.button.clear:hover {
+  background-color: #ff6666;
 }
 
 .back-button {
@@ -110,4 +125,18 @@ body {
 .back-button:focus {
   background-color: #b5a9a9; /* Háttérszín változás focus esetén */
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+}
+
+.history {
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  height: 40px; /* Fix magasság */
+  font-size: 16px;
+  color: #333;
+  width: 100%; /* Történet szélessége */
+  text-align: right; /* Jobbra igazított szöveg */
+  overflow: hidden; /* Elrejtjük a túlcsorduló tartalmat */
+  white-space: nowrap; /* Egy sorban tartjuk a szöveget */
 }

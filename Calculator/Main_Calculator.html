@@ -9,39 +9,26 @@
   </head>
   <body>
     <div class="calculator">
+      <div class="history" id="history">0</div> <!-- Történet megjelenítése -->
       <div class="display" id="display">0</div>
       <div class="buttons">
-        <button class="button" onclick="displayNumber('7')">7</button>
-        <button class="button" onclick="displayNumber('8')">8</button>
-        <button class="button" onclick="displayNumber('9')">9</button>
-        <button class="button operator" onclick="chooseOperation('/')">
-          /
-        </button>
-        <button class="button" onclick="displayNumber('4')">4</button>
-        <button class="button" onclick="displayNumber('5')">5</button>
-        <button class="button" onclick="displayNumber('6')">6</button>
-        <button class="button operator" onclick="chooseOperation('*')">
-          *
-        </button>
-        <button class="button" onclick="displayNumber('1')">1</button>
-        <button class="button" onclick="displayNumber('2')">2</button>
-        <button class="button" onclick="displayNumber('3')">3</button>
-        <button class="button operator" onclick="chooseOperation('-')">
-          -
-        </button>
-        <button class="button" onclick="displayNumber('0')">0</button>
-        <button class="button" onclick="displayNumber('.')">.</button>
-        <button class="button" onclick="clearDisplay()">C</button>
-        <button class="button operator" onclick="chooseOperation('+')">
-          +
-        </button>
-        <button
-          class="button operator"
-          style="grid-column: span 4"
-          onclick="compute()"
-        >
-          =
-        </button>
+        <button class="button" onclick="appendNumber('7')">7</button>
+        <button class="button" onclick="appendNumber('8')">8</button>
+        <button class="button" onclick="appendNumber('9')">9</button>
+        <button class="button operator" onclick="chooseOperation('+')">+</button>
+        <button class="button" onclick="appendNumber('4')">4</button>
+        <button class="button" onclick="appendNumber('5')">5</button>
+        <button class="button" onclick="appendNumber('6')">6</button>
+        <button class="button operator" onclick="chooseOperation('-')">-</button>
+        <button class="button" onclick="appendNumber('1')">1</button>
+        <button class="button" onclick="appendNumber('2')">2</button>
+        <button class="button" onclick="appendNumber('3')">3</button>
+        <button class="button operator" onclick="chooseOperation('*')">*</button>
+        <button class="button" onclick="appendNumber('.')">.</button>
+        <button class="button" onclick="appendNumber('0')">0</button>
+        <button class="button" onclick="compute()">=</button>
+        <button class="button operator" onclick="chooseOperation('/')">/</button>
+        <button class="button clear" onclick="clearDisplay()">C</button> <!-- Hosszú törlés gomb -->
       </div>
     </div>
     <div class="back-button-container">

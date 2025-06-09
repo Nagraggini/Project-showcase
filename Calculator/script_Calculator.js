@@ -3,18 +3,26 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log("Oldal betöltése sikeres!");
 
   let display = document.getElementById("display");
+  let history = document.getElementById("history");
   let currentOperand = "";
   let previousOperand = "";
   let operation = null;
 
-  function displayNumber(number) {
-    if (number === "." && currentOperand.includes(".")) return;
+  function appendNumber(number) {
+    // Ha nincs aktív művelet és a currentOperand már tartalmaz számot, ne töröljük
+    if (!operation && currentOperand === "0" && number !== ".") {
+      currentOperand = ""; 
+      // Csak akkor töröljük, ha a felhasználó új számot kezd
+    }
+
+    if (number === "." && currentOperand.includes(".")) return; // Ne engedjünk több tizedespontot
     currentOperand = currentOperand.toString() + number.toString();
     updateDisplay();
+    updateHistory();
   }
 
   function chooseOperation(op) {
-    /*Megvizzgálja, hogy üres-e a váltózó, ha igen akkor nem csinál semmit.*/
+    /*Megvizsgálja, hogy üres-e a váltózó, ha igen akkor nem csinál semmit.*/
     if (currentOperand === "") return;
     if (previousOperand !== "") {
       compute();
@@ -22,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     operation = op;
     previousOperand = currentOperand;
     currentOperand = "";
+    updateHistory();
   }
 
   function compute() {
@@ -49,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     operation = null;
     previousOperand = "";
     updateDisplay();
+    updateHistory();
   }
 
   function clearDisplay() {
@@ -56,10 +66,15 @@ document.addEventListener("DOMContentLoaded", () => {
     previousOperand = "";
     operation = null;
     updateDisplay();
+    history.innerText = "0"; // Történet törlése
   }
 
   function updateDisplay() {
-    display.innerText = currentOperand;
+    display.innerText = currentOperand || "0";
+  }
+
+  function updateHistory() {
+    history.innerText = `${previousOperand} ${operation || ""} ${currentOperand}`;
   }
 
   clearDisplay();
@@ -69,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       const value = button.innerText;
       if ((value >= "0" && value <= "9") || value === ".") {
-        displayNumber(value);
+        appendNumber(value);
       } else if (value === "C") {
         clearDisplay();
       } else if (value === "=") {
