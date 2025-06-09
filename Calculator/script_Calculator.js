@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Oldal betöltése sikeres!");
 
+  //változók:
   let display = document.getElementById("display");
   let history = document.getElementById("history");
   let currentOperand = "";
@@ -11,11 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
   function appendNumber(number) {
     // Ha nincs aktív művelet és a currentOperand már tartalmaz számot, ne töröljük
     if (!operation && currentOperand === "0" && number !== ".") {
-      currentOperand = ""; 
-      // Csak akkor töröljük, ha a felhasználó új számot kezd
+      currentOperand = "";
+      // Csak akkor töröljük, ha a felhasználó új számot kezd el beírni
     }
 
-    if (number === "." && currentOperand.includes(".")) return; // Ne engedjünk több tizedespontot
+    // Ne engedjünk több tizedespontot
+    // === nem csak az érték a fontos, hanem a típus is ua.
+    if (number === "." && currentOperand.includes(".")) return;
     currentOperand = currentOperand.toString() + number.toString();
     updateDisplay();
     updateHistory();
@@ -74,7 +77,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateHistory() {
-    history.innerText = `${previousOperand} ${operation || ""} ${currentOperand}`;
+    history.innerText = `${previousOperand} ${
+      operation || ""
+    } ${currentOperand}`;
   }
 
   clearDisplay();
