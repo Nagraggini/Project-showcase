@@ -107,11 +107,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Kiíratom a gép választását.
             displayChoiceComputer(computerChoice);
 
-            console.log("Computer is win!");
+            console.log("The computer won!");
 
             /*Az innerText-el frissítjük a HTML elem tartalmát, hogy az eredményt láthassa a felhasználó. 
             Frissíteni kell a DOM elemet, hogy az megjelenjen az oldalon.*/
-            outputResult.innerText = "Computer is win!";
+            outputResult.innerText = "The computer won!";
 
             //Növeljük eggyel a gép eredményét. A JS kódban felül hoztad létre a változót.
             Computerresult += 1;
@@ -119,10 +119,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Kiíratom a gép választását.
             displayChoiceComputer(computerChoice);
 
-            console.log("You win!");
+            console.log("You won!");
 
             //innerText -> Frissíti a DOM-ot.
-            outputResult.innerText = "You win!";
+            outputResult.innerText = "You won!";
 
             //Növeljük eggyel a felhasználó eredményét. A JS kódban felül hoztad létre a változót.
             Userresult += 1;
