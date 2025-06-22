@@ -1,5 +1,5 @@
 # Explore Knowledge
-Explore Knowledge
+
 
 I started this project to truly learn web development—not just by watching tutorials, but by putting them into practice. 
 
