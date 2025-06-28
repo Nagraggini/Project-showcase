@@ -9,6 +9,45 @@ body {
   background-color: black;
   /* Ez állítja be az egész oldal háttérszínét */
 }
+h1 {
+  font-size: 36px;
+  color: #ddcfcf;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  /* Nagybetűs szöveg */
+}
+
+/* Eredmények összesítése  egy konténerben */
+.results-container {
+  display: flex;
+  justify-content: center;
+  /* Középre igazítás vízszintesen */
+  align-items: center;
+  /* Középre igazítás függőlegesen */
+  gap: 20px;
+  /* Térköz a két szöveg között */
+  margin-top: 10px;
+  /* Térköz a többi elemtől */
+}
+
+/*Lista stílusának beállítása*/
+il,
+ul {
+  color: #cfbbbb;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none; /* Eltünteti a lista pöttyét */
+  padding: 0; /* Eltávolítja az alapértelmezett belső margót */
+  margin: 0; /* Eltávolítja az alapértelmezett külső margót */
+}
+
+li {
+  margin-bottom: 10px; /* Térköz a listaelemek között */
+}
 
 /*Gombok stílusának beállítása*/
 
@@ -60,23 +99,3 @@ submit-button:hover::before {
   background-color: #b5a9a9; /* Háttérszín változás focus esetén */
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
 }
-
-/*Lista stílusának beállítása*/
-il,
-ul {
-  color: #cfbbbb;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-ul {
-  list-style-type: none; /* Eltünteti a lista pöttyét */
-  padding: 0; /* Eltávolítja az alapértelmezett belső margót */
-  margin: 0; /* Eltávolítja az alapértelmezett külső margót */
-}
-
-li {
-  margin-bottom: 10px; /* Térköz a listaelemek között */
-}
-
-
