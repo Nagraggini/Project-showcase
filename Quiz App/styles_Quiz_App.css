@@ -6,12 +6,12 @@ body {
   justify-content: center;
   min-height: 100vh; /* Teljes magasságra állítja az oldalt */
   margin: 0;
-  background-color: black;
+  background-color: lightblue;
   /* Ez állítja be az egész oldal háttérszínét */
 }
 h1 {
   font-size: 36px;
-  color: #ddcfcf;
+  color: black;
   margin-bottom: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -34,7 +34,7 @@ h1 {
 /*Lista stílusának beállítása*/
 il,
 ul {
-  color: #cfbbbb;
+  color: black;
   font-size: 16px;
   line-height: 1.5;
 }

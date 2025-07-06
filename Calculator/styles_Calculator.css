@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #141313;
+  background-color: lightblue;
   font-family: Arial, sans-serif;
   position: relative; /* Hozzáadva a relatív pozícionálás */
 }

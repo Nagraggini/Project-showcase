@@ -1,9 +1,9 @@
 body {
-  background-color: black;
-  color: lightblue;
+  background-color: lightblue;
+  color: black;
 }
 a:link {
-  color: lightblue;
+  color: rgb(71, 11, 168);
 }
 
 ul {
@@ -11,5 +11,6 @@ ul {
 }
 
 ul li::marker {
-  color: purple; /* Lila szín */
+  color: rgb(30, 16, 88); 
 }
+

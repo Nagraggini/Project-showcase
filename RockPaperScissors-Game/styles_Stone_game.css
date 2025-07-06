@@ -6,14 +6,14 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  background-color: black;
+  background-color: lightblue;
   /* Ez állítja be az egész oldal háttérszínét */
 }
 
 /* A főcím és alcím stílusai */
 h1 {
   font-size: 36px;
-  color: #ddcfcf;
+  color: black;
   margin-bottom: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: #ddcfcf;
+  color: black;
   margin-bottom: 20px;
   /* Térköz a címek és a gombok között */
   text-align: center;
@@ -32,7 +32,7 @@ h2 {
 p {
   font-size: 20px;
   /* A betűméret */
-  color: #ddcfcf;
+  color: black;
   line-height: 0, 8;
   /* A sorok közötti távolság */
   width: 300px;
@@ -57,7 +57,7 @@ p {
 
 /* Egyes gombok stílusai */
 .image-button {
-  border: 2px solid #5e1354;
+  border: 2px solid rgba(110, 5, 84, 0.541);
   /*Keret vastagsága.*/
   background-color: rgba(110, 5, 84, 0.541);
   padding: 15px;
@@ -93,7 +93,7 @@ p {
 /* Feliratok a gombokhoz */
 .image-button span {
   font-size: 14px;
-  color: #ddcfcf;
+  color: black;
 }
 
 /* Gomb hover animáció */
@@ -119,7 +119,7 @@ p {
 #outputUserresult,
 #outputComputerresult {
   font-size: 20px;
-  color: #ddcfcf;
+  color: black;
   font-weight: bold;
   text-align: center;
   width: 200px;
@@ -129,7 +129,7 @@ p {
 /* A gép választásának a betű stílusa. */
 #outputChoiceComputer {
   font-size: 20px;
-  color: #ddcfcf;
+  color: black;
   margin-top: 5px;
   /* Térköz a címek és a gombok között */
   font-weight: bold;
@@ -139,7 +139,7 @@ p {
 /* A felhasználó választásának a betű stílusa. */
 #outputChoiceUser {
   font-size: 20px;
-  color: #ddcfcf;
+  color: black ;
   margin-top: 20px;
   /* Térköz a címek és a gombok között */
   font-weight: bold;
@@ -149,7 +149,7 @@ p {
 /* Az eredmény betű stílusa */
 #outputResult {
   font-size: 30px;
-  color: #ddcfcf;
+  color: black;
   margin-top: 5px;
   /* Térköz a címek és a gombok között */
   font-weight: bold;
