@@ -1,6 +1,8 @@
 body {
-  background-color: lightblue;
-  color: black;
+  background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
+  color: #222;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 a:link {
   color: rgb(71, 11, 168);
@@ -11,6 +13,5 @@ ul {
 }
 
 ul li::marker {
-  color: rgb(30, 16, 88); 
+  color: rgb(30, 16, 88);
 }
-

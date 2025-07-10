@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: lightblue;
+background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
   font-family: Arial, sans-serif;
   position: relative; /* Hozzáadva a relatív pozícionálás */
 }

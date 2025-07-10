@@ -6,7 +6,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  background-color: lightblue;
+  background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
   /* Ez állítja be az egész oldal háttérszínét */
 }
 
@@ -139,7 +139,7 @@ p {
 /* A felhasználó választásának a betű stílusa. */
 #outputChoiceUser {
   font-size: 20px;
-  color: black ;
+  color: black;
   margin-top: 20px;
   /* Térköz a címek és a gombok között */
   font-weight: bold;
@@ -174,35 +174,33 @@ p {
   overflow: hidden; /* Elrejtjük a túlcsorduló tartalmat */
 }
 
-
 .back-button::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -200%; /* Kezdetben rejtve */
-    width: 200%;
-    height: 20px; /* Vékony csík */
-    background: rgba(255, 255, 255, 0.8); /* Fényes csík színe */
-    transform: rotate(45deg);
-    transition: all 0.5s ease;
-  }
-  
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -200%; /* Kezdetben rejtve */
+  width: 200%;
+  height: 20px; /* Vékony csík */
+  background: rgba(255, 255, 255, 0.8); /* Fényes csík színe */
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
 
-  .back-button:hover::before {
-    left: 100%; /* Mozgás hover esetén */
-    transition: all 0.5s ease;
-  }
+.back-button:hover::before {
+  left: 100%; /* Mozgás hover esetén */
+  transition: all 0.5s ease;
+}
 
-  .back-button:hover {
-    transform: scale(1.05); /* Nagyítás hover esetén */
-    background-color: #b5a9a9; /* Háttérszín változás hover esetén */
-    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
-  }
-  
-  .back-button:focus {
-    background-color: #b5a9a9; /* Háttérszín változás focus esetén */
-    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
-  }
+.back-button:hover {
+  transform: scale(1.05); /* Nagyítás hover esetén */
+  background-color: #b5a9a9; /* Háttérszín változás hover esetén */
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+}
+
+.back-button:focus {
+  background-color: #b5a9a9; /* Háttérszín változás focus esetén */
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+}
 
 /* Media query: Ha a képernyő szélessége kisebb, mint 600px (mobilok) */
 @media (max-width: 600px) {
