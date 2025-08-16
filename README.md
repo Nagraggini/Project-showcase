@@ -1,4 +1,4 @@
-# Explore Knowledge
+# Projects & Experience
 
 
 I started this project to truly learn web development—not just by watching tutorials, but by putting them into practice. 
