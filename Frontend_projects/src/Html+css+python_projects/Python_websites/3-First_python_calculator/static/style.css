@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
+  color: #222;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+}
+button {
+  background-color: #1f3dd1; /* Green */
+
+  color: white;
+}
