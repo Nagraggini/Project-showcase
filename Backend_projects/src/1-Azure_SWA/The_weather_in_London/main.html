@@ -6,22 +6,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css"" />
+    <link rel="stylesheet" href="styles_The_weather_in_London.css"" />
+    <script src="main_The_weather_in_London.js"></script>
 
     <title>Andi's Site</title>
   </head>
 
   <body>
+    <h1>The weather in London</h1>
+
     <div class="container">
-      <h1>The weather in London</h1>
       <h2>This is hosted on an Azure Storage Account!</h2>
       <h3>
+        The weather in Budapest at the moment is
+        <span id="Budapest_weather"></span>
+      </h3>
+
+      <h3>
         The weather in London at the moment is
-        <span id="weather"></span>
+        <span id="London_weather"></span>
+      </h3>
+
+      <h3>
+        The weather in Tokyo at the moment is
+        <span id="Tokyo_weather"></span>
       </h3>
       <div id="btn" class="button" onclick="clicked()">Click Me</div>
     </div>
-
-    <script src="main.js"></script>
   </body>
 </html>
