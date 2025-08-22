@@ -39,9 +39,10 @@ The frontend communicates with the backend via RESTful APIs:
 
 ## Folder structure
 
+```plaintext
 Project-showcase/
 │
-├─ frontend/ # Összes frontend projekt
+├─ frontend/ # All frontend project
 │ ├─ project1/
 │ │ ├─ index.html
 │ │ ├─ style.css
@@ -49,17 +50,17 @@ Project-showcase/
 │ └─ project2/
 │ └─ ...
 │
-├─ backend/ # Összes backend projekt
+├─ backend/ # All backend project
 │ ├─ project1/
 │ │ ├─ app.py
 │ │ └─ requirements.txt
 │ └─ project2/
 │ └─ ...
 │
-├─ assets/ # Képek, ikonok, logók
+├─ assets/ # Pictures, icons, logos
 │ └─ icons/
 │
-├─ docs/ # Dokumentáció (how-to-run, jegyzetek, leírások)
+├─ docs/ # Dokumentation (how-to-run, notes, description)
 │ └─ setup.md
 │
 ├─ .gitignore
@@ -68,3 +69,4 @@ Project-showcase/
 ## Acknowledgments
 
 I would like to thank my family, friends, and my school for their support.
+```
