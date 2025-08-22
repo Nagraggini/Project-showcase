@@ -12,5 +12,6 @@ You can start here:
 How to run the frontend?
 
 How to run the backend?
+I use [Vercel](https://vercel.com) to host my Python dynamic website
 
 Current status, dependencies, future plans.
