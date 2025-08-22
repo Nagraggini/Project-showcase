@@ -6,7 +6,7 @@ The tasks have been getting progressively more challenging, as you’ll see. I h
 
 You can start here:
 
-[Project-showcase via Github](https://nagraggini.github.io/Project-showcase/Main.htm)  
+[Project-showcase via Github](https://nagraggini.github.io/Project-showcase/index.htm)  
 [Project-showcase via Vercel](https://project-showcase-nagraggini.vercel.app)
 
 How to run the frontend?
