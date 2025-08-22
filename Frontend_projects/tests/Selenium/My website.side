@@ -1,0 +1,151 @@
+{
+  "id": "67b18c27-1309-47ad-8b20-8d8db9e59291",
+  "version": "2.0",
+  "name": "My website",
+  "url": "https://project-showcase-nagraggini.vercel.app",
+  "tests": [{
+    "id": "db88328e-bf53-4d9b-981c-df164cb57be0",
+    "name": "Test_1",
+    "commands": [{
+      "id": "8003db33-37ff-482d-b9eb-40d36277eb2b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a51b7f-db54-4d92-879b-54d774c2335f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81809474-2b70-4e8d-9d4a-e20d48b707c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Calculator (Built with HTML, CSS, and JavaScript)",
+      "targets": [
+        ["linkText=Go to Calculator (Built with HTML, CSS, and JavaScript)", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Calculator (Built with HTML, CSS, and JavaScript)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/Html+css+javascript_projects/2-Calculator/Main_Calculator.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Calculator (Built with HTML, CSS, and JavaScript)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb545b5-925b-4785-aec9-029e4f6d7f76",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Quiz App (Built with HTML, CSS, and JavaScript)",
+      "targets": [
+        ["linkText=Go to Quiz App (Built with HTML, CSS, and JavaScript)", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Quiz App (Built with HTML, CSS, and JavaScript)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/Html+css+javascript_projects/3-Quiz_App/Main_Quiz_App.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Quiz App (Built with HTML, CSS, and JavaScript)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a221cc-bb7b-4749-b0e9-8396a5cbd666",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > a",
+      "targets": [
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Rock, Paper, Scissors game (Built with HTML, CSS, and\n          JavaScript)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/Html+css+javascript_projects/1-RockPaperScissors-Game/Main_Stone_game.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de95efcc-c273-44a9-91b9-992bc8edb2d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Calculator (Built with HTML, CSS, Python) - Work in progress",
+      "targets": [
+        ["linkText=Calculator (Built with HTML, CSS, Python) - Work in progress", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Calculator (Built with HTML, CSS, Python) - Work in progress')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/Html+css+python_projects/Python_websites/First_python_calculator/Main_Python_Calculator.html')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Calculator (Built with HTML, CSS, Python) - Work in progress')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98edff43-3067-44cc-9a59-9dcfaa449165",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(6) > li:nth-child(3)",
+      "targets": [
+        ["css=ul:nth-child(6) > li:nth-child(3)", "css:finder"],
+        ["xpath=//ul[2]/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Stopwatch App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "270c0d55-4603-45fd-99b7-c7ca464bc484",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(6) > li:nth-child(2) > a",
+      "targets": [
+        ["css=ul:nth-child(6) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Note App (Built with HTML, CSS, JavaScript, Python, Flask, SQLite ) -\n          Work in progress')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Backend_projects/Note App/Main_Note_App.html')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efbebe4b-8120-47f0-bb6f-8e142f51e3c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CodeHub Tech",
+      "targets": [
+        ["linkText=CodeHub Tech", "linkText"],
+        ["css=p:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CodeHub Tech')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/codehub_tech/p/C5zuPCMS8EN/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CodeHub Tech')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e7493f-8a47-4d13-a7bf-7ffcf891c01f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=github.com/Nagraggini",
+      "targets": [
+        ["linkText=github.com/Nagraggini", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'github.com/Nagraggini')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://github.com/Nagraggini')]", "xpath:href"],
+        ["xpath=//footer/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'github.com/Nagraggini')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b88e8b-8b17-4ae3-98f7-f7e7fe33b44f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(1)",
+      "targets": [
+        ["css=h2:nth-child(1)", "css:finder"],
+        ["xpath=//footer/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "122bdc47-f6f2-4929-9459-dd3a0a508259",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["db88328e-bf53-4d9b-981c-df164cb57be0"]
+  }],
+  "urls": ["https://project-showcase-nagraggini.vercel.app/"],
+  "plugins": []
+}
