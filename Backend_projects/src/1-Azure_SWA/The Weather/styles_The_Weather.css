@@ -9,6 +9,10 @@
   cursor: pointer;
   background-color: blueviolet;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .button:hover {
   background-color: rgb(228, 39, 181); /* Green */
@@ -20,9 +24,13 @@
   margin-top: 50px;
 }
 
+html,
 body {
   background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
   font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* A főcím és alcím stílusai */

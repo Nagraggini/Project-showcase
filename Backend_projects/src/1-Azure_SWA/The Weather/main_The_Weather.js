@@ -22,21 +22,21 @@ let Tokyo_url =
 //A második.then() a visszakapott adatokból(data) kiveszi az aktuális hőmérsékletet(data.current_weather.temperature)
 //és kiírja a weather elem szövegébe, pl. 21°C.
 
-fetch(url)
+fetch(Budapest_url)
   .then((response) => response.json())
   .then(
     (data) =>
       (Budapest_weather.textContent = data.current_weather.temperature + "°C")
   );
 
-fetch(url)
+fetch(London_url)
   .then((response) => response.json())
   .then(
     (data) =>
       (London_weather.textContent = data.current_weather.temperature + "°C")
   );
 
-fetch(url)
+fetch(Tokyo_url)
   .then((response) => response.json())
   .then(
     (data) =>
@@ -46,9 +46,10 @@ fetch(url)
 //Ez egy függvény, ami akkor fut le, ha a gombot megnyomod.
 //Először feldob egy üzenetet (alert("Button clicked!")).
 //Ezután a gomb (btn) háttérszínét kékre állítja, a szöveg színét pedig fehérre.
-
+/*
 function clicked() {
   //alert("Button clicked!");
   btn.style.backgroundColor = "darkblue";
   btn.style.color = "white";
 }
+  */
