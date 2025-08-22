@@ -65,8 +65,8 @@ Project-showcase/
 │
 ├─ .gitignore
 ├─ README.md
+```
 
 ## Acknowledgments
 
 I would like to thank my family, friends, and my school for their support.
-```
