@@ -46,8 +46,9 @@ fetch(url)
 //Ez egy függvény, ami akkor fut le, ha a gombot megnyomod.
 //Először feldob egy üzenetet (alert("Button clicked!")).
 //Ezután a gomb (btn) háttérszínét kékre állítja, a szöveg színét pedig fehérre.
+
 function clicked() {
-  alert("Button clicked!");
+  //alert("Button clicked!");
   btn.style.backgroundColor = "darkblue";
   btn.style.color = "white";
 }
