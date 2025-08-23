@@ -25,17 +25,17 @@ The tasks have been getting progressively more challenging, as you’ll see. I h
 
 #### Completed Projects
 
-- [Go to Calculator (Built with HTML, CSS, and JavaScript)](Frontend_projects/src/Html+css+javascript_projects/2-Calculator/Main_Calculator.html)
-- [Go to Quiz App (Built with HTML, CSS, and JavaScript)](Frontend_projects/src/Html+css+javascript_projects/3-Quiz_App/Main_Quiz_App.html)
-- [Go to Rock, Paper, Scissors game (Built with HTML, CSS, and JavaScript)](Frontend_projects/src/Html+css+javascript_projects/1-RockPaperScissors-Game/Main_Stone_game.html)
+- [Go to Calculator (Built with HTML, CSS, and JavaScript)](https://nagraggini.github.io/Project-showcase/Frontend_projects/src/Html+css+javascript_projects/2-Calculator/Main_Calculator.html)
+- [Go to Quiz App (Built with HTML, CSS, and JavaScript)](https://nagraggini.github.io/Project-showcase/Frontend_projects/src/Html+css+javascript_projects/3-Quiz_App/Main_Quiz_App.html)
+- [Go to Rock, Paper, Scissors game (Built with HTML, CSS, and JavaScript)](https://nagraggini.github.io/Project-showcase/Frontend_projects/src/Html+css+javascript_projects/1-RockPaperScissors-Game/Main_Stone_game.html)
 - [Go to The Weather app (Built with HTML, CSS, JavaScript, and Azure)](https://nagraggini.z13.web.core.windows.net/)
 
 #### Future Projects
 
-- [Go to the Harry Potter Sorting Hat (Built with HTML, CSS, Python) - Work in progress](Frontend_projects/src/Html+css+python_projects/Python_websites/2-Sort_hat/Main_Sort_hat.html)
-- [Go to Calculator (Built with HTML, CSS, Python) - Work in progress](Frontend_projects/src/Html+css+python_projects/Python_websites/3-First_python_calculator/Main_Python_Calculator.html)
-- [Go to Note App 1 (built with HTML, CSS, JavaScript, Python, Flask, and SQLite) - Work in progress](Backend_projects/src/2-Note_App_1/Main_Note_App_1.html)
-- [Go to Note App 2 (built with React, Node.js, and SQLite) - Work in progress](Backend_projects/src/2-Note_App_2/)
+- [Go to the Harry Potter Sorting Hat (Built with HTML, CSS, Python) - Work in progress](https://nagraggini.github.io/Project-showcase/Frontend_projects/src/Html+css+python_projects/Python_websites/2-Sort_hat/Main_Sort_hat.html)
+- [Go to Calculator (Built with HTML, CSS, Python) - Work in progress](https://nagraggini.github.io/Project-showcase/Frontend_projects/src/Html+css+python_projects/Python_websites/3-First_python_calculator/Main_Python_Calculator.html)
+- [Go to Note App 1 (built with HTML, CSS, JavaScript, Python, Flask, and SQLite) - Work in progress](https://nagraggini.github.io/Project-showcase/Backend_projects/src/2-Note_App_1/Main_Note_App_1.html)
+- [Go to Note App 2 (built with React, Node.js, and SQLite) - Work in progress](https://nagraggini.github.io/Project-showcase/Backend_projects/src/2-Note_App_2/)
 - Stopwatch App
 - QR Code Reader
 - Weather App
