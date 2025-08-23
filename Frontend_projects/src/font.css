@@ -1,0 +1,31 @@
+/*
+@font-face {
+  font-family: "MyFont";
+  src: url("../../Assets/Fonts/Newsreader/Newsreader-Italic-VariableFont_opsz\,wght.ttf")
+      format("woff2"),
+    url("../../Assets/Fonts/Newsreader/Newsreader-Italic-VariableFont_opsz\,wght.ttf")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../../Assets/Fonts/Newsreader/Newsreader-Italic-VariableFont_opsz\,wght.ttf")
+      format("woff2"),
+    url("../../Assets/Fonts/Newsreader/Newsreader-Italic-VariableFont_opsz\,wght.ttf")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 700;
+}
