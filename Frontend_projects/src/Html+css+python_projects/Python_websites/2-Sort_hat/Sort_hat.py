@@ -1,3 +1,5 @@
+# You should install pyscript -> Terminal -> pip install pyscript
+
 # Sorting Hat HP💖
 description = """
 The Sorting Hat is a magical talking hat at Hogwarts School of Witchcraft and Wizardry. 
@@ -90,3 +92,5 @@ print("Slytherin:", Slytherin)
 print("Gryffindor:", Gryffindor)
 print("Ravenclaw:", Ravenclaw)
 print("Hufflepuff:", Hufflepuff)
+
+check()
