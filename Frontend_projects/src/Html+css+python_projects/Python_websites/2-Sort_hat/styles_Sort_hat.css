@@ -1,42 +1,84 @@
-body {
-  background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
-  color: #222;
-  min-height: 100vh;
-  font-family: "Segoe UI", Arial, sans-serif;
-}
-a:link {
-  color: rgb(71, 11, 168);
+.house {
+  display: grid;
+  align-content: center;
 }
 
-ul {
-  list-style-type: square;
+.question_and_answers_1,
+.question_and_answers_2,
+.question_and_answers_3 {
+  padding: 10px; /*Párnázás, belső margó.*/
 }
 
-ul li::marker {
-  color: rgb(30, 16, 88);
+.back-button,
+.submit-button {
+  background-color: #5e1354; /* Gomb háttérszíne */
+  color: black; /* Gomb szövegének színe */
+  border: none; /* Nincs keret */
+  padding: 10px 20px; /* Belső margó */
+  text-align: center; /* Szöveg középre igazítása */
+  text-decoration: none; /* Nincs aláhúzás */
+  display: inline-block; /* Inline blokk elem */
+  font-size: 16px; /* Betűméret */
+  margin: 10px 2px; /* Külső margó */
+  cursor: pointer; /* Mutató kurzor */
+  border-radius: 5px; /* Lekerekített sarkok */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Áttűnés a háttérszín és árnyék változásakor */
+  font-weight: bold; /* Félkövér szöveg */
+  position: relative; /* Relatív pozíció a fénycsíkhoz */
+  overflow: hidden; /* Elrejtjük a túlcsorduló tartalmat */
 }
 
-@font-face {
-  font-family: "MyFont";
-  src: url("./fonts/MyFont-Regular.woff2") format("woff2"),
-    url("./fonts/MyFont-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+.back-button::before,
+.submit-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -200%; /* Kezdetben rejtve */
+  width: 200%;
+  height: 20px; /* Vékony csík */
+  background: rgba(255, 255, 255, 0.8); /* Fényes csík színe */
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
 }
 
-@font-face {
-  font-family: "MyFont";
-  src: url("./fonts/MyFont-Bold.woff2") format("woff2"),
-    url("./fonts/MyFont-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
+.back-button:hover::before,
+.submit-button:hover::before {
+  left: 100%; /* Mozgás hover esetén */
+  transition: all 0.5s ease;
 }
 
-body {
-  font-family: "MyFont", sans-serif;
+.back-button:hover,
+.submit-button:hover {
+  transform: scale(1.05); /* Nagyítás hover esetén */
+  background-color: #b5a9a9; /* Háttérszín változás hover esetén */
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
 }
 
-h1 {
-  font-family: "MyFont", serif;
-  font-weight: bold;
+.back-button:focus,
+.submit-button:focus {
+  background-color: #b5a9a9; /* Háttérszín változás focus esetén */
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+}
+
+/* Gombokat tartalmazó konténer */
+.button-container {
+  display: flex;
+  /* A gombok egymás mellé rendezése */
+  gap: 20px;
+  /* Térköz a gombok között */
+  flex-wrap: wrap;
+  /* Ha nem fér el a gomb, új sorba kerül */
+  justify-content: center;
+  /* Középre igazítás */
+}
+
+@media (max-width: 600px) {
+  .house {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    height: 50px;
+  }
 }
