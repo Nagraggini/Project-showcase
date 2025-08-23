@@ -7,6 +7,8 @@ I just following this repository/site:
 
 [Codedex](https://www.codedex.io/)  
 
+[Real Python](https://realpython.com/html-css-python/)
+
 [Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)  
 
 [Choose a License](https://choosealicense.com/)
