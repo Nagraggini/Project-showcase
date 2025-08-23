@@ -7,7 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles_The_Weather.css"" />
-    <script src="main_The_Weather.js"></script>
+
+    <!--A defer szó azért kell, hogy a script csak akkor fusson le, amikor a DOM már betöltődött, 
+    különben nem találja meg az elemeket, ezért kapsz ilyen hibát.
+    -->
+    <script src="main_The_Weather.js" defer></script>
 
     <title>The Weather</title>
   </head>
@@ -32,7 +36,9 @@
         <span id="Tokyo_weather"></span>
       </h3>
       <div id="btn" class="button">
-        <a href="https://project-showcase-nagraggini.vercel.app/">Back</a>
+        <a href="https://nagraggini.github.io/Project-showcase/index.html"
+          >Back</a
+        >
       </div>
     </div>
   </body>
