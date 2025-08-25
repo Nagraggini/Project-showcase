@@ -14,14 +14,6 @@ Codedex
 <!--[Project-showcase via Vercel](https://project-showcase-nagraggini.vercel.app)-->
 <!--[Project-showcase via Netlify](https://nagraggini.netlify.app)-->
 
-## How to run the frontend
-
-(Instructions coming soon — or add your `npm install` / `npm start` steps here.)
-
-## How to run the backend
-
-(Instructions coming soon — or add your Python/Flask/FastAPI steps here.)
-
 ## Current status, dependencies, future plans
 
 ### Project Ideas for Web Development
@@ -107,6 +99,14 @@ or Kotlin (native Android, better widget handling)
 Backend (Web + API):
 Firebase Firestore (cloud-based, easiest setup)
 or Flask/Django REST API with SQLite/Postgres
+
+## How to run the frontend
+
+(Instructions coming soon — or add your `npm install` / `npm start` steps here.)
+
+## How to run the backend
+
+(Instructions coming soon — or add your Python/Flask/FastAPI steps here.)
 
 ## Tech Stack
 
