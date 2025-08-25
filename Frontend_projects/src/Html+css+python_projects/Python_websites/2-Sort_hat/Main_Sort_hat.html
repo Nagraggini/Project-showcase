@@ -2,21 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Hat</title>
     <link rel="stylesheet" href="styles_Sort_hat.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="../../../../../Assets/Icons/website_icon.webp"
-    />
-    <link rel="script" href="Sort_hat.py" />
-    <link rel="stylesheet" href="../../../background.css" />
-    <link rel="stylesheet" href="../../../font.css" />
 
-    <title>Harry Potter Sorting Hat</title>
+    <!-- PyScript import -->
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   </head>
   <body>
-    <h1>Harry Potter Sorting Hat</h1>
+    <h1>⚡ Hogwarts Sorting Hat ⚡</h1>
+
     <br />
     <div>
       The Sorting Hat is a magical talking hat at Hogwarts School of Witchcraft
@@ -32,87 +27,37 @@
       correct house.
     </div>
 
-    <div class="question_and_answers_1">
-      Q1) Do you like Dawn or Dusk?
-      <br />
-      <input type="radio" id="dawn" name="q1" value="dawn" />
-      <label for="dawn">Dawn</label>
-      <br />
-      <input type="radio" id="dusk" name="q1" value=" dusk" />
-      <label for="dusk">Dusk</label>
-    </div>
+    <!-- Q1 -->
+    <fieldset>
+      <legend>Q1) Do you like Dawn or Dusk?</legend>
+      <label><input type="radio" name="q1" value="1" /> Dawn</label><br />
+      <label><input type="radio" name="q1" value="2" /> Dusk</label>
+    </fieldset>
 
-    <div class="question_and_answers_2">
-      Q2) When I’m dead, I want people to remember me as:
-      <br />
-      <input type="radio" id="The_Good" name="q2" value="The_Good" />
-      <label for="The_Good">The Good</label>
-      <br />
-      <input type="radio" id="The_Great" name="q2" value=" The_Great" />
-      <label for="The_Great">The Great</label>
-      <br />
-      <input type="radio" id="The_Wise" name="q2" value=" The_Wise" />
-      <label for="The_Wise">The Wise</label>
-      <br />
-      <input type="radio" id="The_Bold" name="q2" value=" The_Bold" />
-      <label for="The_Bold">The Bold</label>
-    </div>
+    <!-- Q2 -->
+    <fieldset>
+      <legend>Q2) When I’m dead, I want people to remember me as:</legend>
+      <label><input type="radio" name="q2" value="1" /> The Good</label><br />
+      <label><input type="radio" name="q2" value="2" /> The Great</label><br />
+      <label><input type="radio" name="q2" value="3" /> The Wise</label><br />
+      <label><input type="radio" name="q2" value="4" /> The Bold</label>
+    </fieldset>
 
-    <div class="question_and_answers_3">
-      Q3) Which kind of instrument most pleases your ear?
-      <br />
-      <input type="radio" id="The_violin" name="q3" value="The_violin" />
-      <label for="The_violin">The violin</label>
-      <br />
-      <input type="radio" id="The_trumpet" name="q3" value=" The_trumpet" />
-      <label for="The_trumpet">The trumpet</label>
-      <br />
-      <input type="radio" id="The_piano" name="q3" value=" The_piano" />
-      <label for="The_piano">The piano</label>
-      <br />
-      <input type="radio" id="The_drum" name="q3" value=" The_drum" />
-      <label for="The_drum">The drum</label>
-    </div>
+    <!-- Q3 -->
+    <fieldset>
+      <legend>Q3) Which kind of instrument most pleases your ear?</legend>
+      <label><input type="radio" name="q3" value="1" /> Violin</label><br />
+      <label><input type="radio" name="q3" value="2" /> Trumpet</label><br />
+      <label><input type="radio" name="q3" value="3" /> Piano</label><br />
+      <label><input type="radio" name="q3" value="4" /> Drum</label>
+    </fieldset>
 
-    <div class="houses">
-      <button>
-        <img
-          src="../../../../../Assets/Icons/Harry_Potter/icons8-gryffindor-crest-480.svg"
-          height="200px"
-        />
-      </button>
+    <button id="btn">Sort me!</button>
 
-      <button>
-        <img
-          src="../../../../../Assets/Icons/Harry_Potter/icons8-ravenclaw-480.svg"
-          height="200px"
-        />
-      </button>
+    <h2>Results:</h2>
+    <div id="output"></div>
 
-      <button>
-        <img
-          src="../../../../../Assets/Icons/Harry_Potter/icons8-hufflepuff-crest-480.svg"
-          height="200px"
-        />
-      </button>
-
-      <button>
-        <img
-          src="../../../../../Assets/Icons/Harry_Potter/icons8-slytherin-crest-480.svg"
-          height="200px"
-        />
-      </button>
-    </div>
-    <div class="button-container">
-      <!-- Back gomb -->
-      <button
-        class="back-button"
-        onclick="window.location.href='../../../../../index.html'"
-      >
-        Back
-      </button>
-
-      <button class="submit-button" onclick="check()">Submit</button>
-    </div>
+    <!-- A külső Python fájl hivatkozása -->
+    <py-script src="Sort_hat.py"></py-script>
   </body>
 </html>

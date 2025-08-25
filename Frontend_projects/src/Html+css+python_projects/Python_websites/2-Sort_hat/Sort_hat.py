@@ -1,96 +1,64 @@
-# You should install pyscript -> Terminal -> pip install pyscript
+from js import document
 
-# Sorting Hat HP💖
-description = """
-The Sorting Hat is a magical talking hat at Hogwarts School of Witchcraft and Wizardry. 
-The hat decides which of the four "Houses" each first-year student goes to:\n
-🦁 Gryffindor
-🦅 Ravenclaw
-🦡 Hufflepuff
-🐍 Slytherin
-"""
-print(description)
 
-# For result.
-Gryffindor = 0
-Ravenclaw = 0
-Hufflepuff = 0
-Slytherin = 0
+def get_checked_value(name):
+    radios = document.getElementsByName(name)
+    for r in radios:
+        if r.checked:
+            return int(r.value)
+    return None
 
-# First question
-q1 = """
-  Q1) Do you like Dawn or Dusk?
-      1) Dawn
-      2) Dusk
-      """
-a1 = int(input(q1))
 
-if a1 == 1:
-    Gryffindor = Gryffindor + 1
-    Ravenclaw = Ravenclaw + 1
+def sort_me(event):
+    Gryffindor = Ravenclaw = Hufflepuff = Slytherin = 0
 
-elif a1 == 2:
-    Hufflepuff = Hufflepuff + 1
-    Slytherin = Slytherin + 1
+    a1 = get_checked_value("q1")
+    a2 = get_checked_value("q2")
+    a3 = get_checked_value("q3")
 
-else:
-    print("Wrong input.")
+    if a1 is None or a2 is None or a3 is None:
+        document.getElementById("output").innerHTML = "⚠ Please answer all questions!"
+        return
 
-# Second question
-q2 = """
-  When I’m dead, I want people to remember me as:
-    1) The Good
-    2) The Great
-    3) The Wise
-    4) The Bold
-      """
-a2 = int(input(q2))
+    # Q1
+    if a1 == 1:
+        Gryffindor += 1
+        Ravenclaw += 1
+    elif a1 == 2:
+        Hufflepuff += 1
+        Slytherin += 1
 
-if a2 == 1:
-    Hufflepuff = Hufflepuff + 2
+    # Q2
+    if a2 == 1:
+        Hufflepuff += 2
+    elif a2 == 2:
+        Slytherin += 2
+    elif a2 == 3:
+        Ravenclaw += 2
+    elif a2 == 4:
+        Gryffindor += 2
 
-elif a2 == 2:
-    Slytherin = Slytherin + 2
+    # Q3
+    if a3 == 1:
+        Slytherin += 4
+    elif a3 == 2:
+        Hufflepuff += 4
+    elif a3 == 3:
+        Ravenclaw += 4
+    elif a3 == 4:
+        Gryffindor += 2
 
-elif a2 == 3:
-    Ravenclaw = Ravenclaw + 2
+    result = f"""
+    🦁 Gryffindor: {Gryffindor}<br>
+    🦅 Ravenclaw: {Ravenclaw}<br>
+    🦡 Hufflepuff: {Hufflepuff}<br>
+    🐍 Slytherin: {Slytherin}
+    """
+    document.getElementById("output").innerHTML = result
 
-elif a2 == 4:
-    Gryffindor = Gryffindor + 2
+    print(result)
 
-else:
-    print("Wrong input.")
 
-# Third question
-q3 = """
-  Q3) Which kind of instrument most pleases your ear?
-      1) The violin
-      2) The trumpet
-      3) The piano
-      4) The drum
-      """
-a3 = int(input(q3))
-
-if a3 == 1:
-    Slytherin = Slytherin + 4
-
-elif a3 == 2:
-    Hufflepuff = Hufflepuff + 4
-
-elif a3 == 3:
-    Ravenclaw = Ravenclaw + 4
-
-elif a3 == 4:
-    Gryffindor = Gryffindor + 2
-
-else:
-    print("Wrong input.")
-
-# Results
-print("\nScore:")
-print("Slytherin:", Slytherin)
-print("Gryffindor:", Gryffindor)
-print("Ravenclaw:", Ravenclaw)
-print("Hufflepuff:", Hufflepuff)
-
-check()
+# gomb esemény hozzárendelés
+btn = document.getElementById("btn")
+btn.addEventListener("click", sort_me)
