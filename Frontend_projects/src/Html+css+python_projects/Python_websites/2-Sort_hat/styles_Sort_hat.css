@@ -90,7 +90,18 @@ ul li::marker {
 }
 
 /*Telefonos nézet*/
-@media (max-width: 600px) {
+@media (max-width: 600px), (max-height: 600px) {
+  .container {
+    display: flex; /* Flexbox elrendezés */
+    flex-direction: column; /* Függőleges irány */
+    align-items: center; /* Középre igazítás vízszintesen */
+  }
+  .questions-and-answers-container {
+    padding: 20px;
+    margin-left: 40px; /* Kis balra tolás */
+    text-align: left;
+    align-self: flex-start; /* EZ BALRA IGAZÍTJA FLEXBOXBAN! */
+  }
   .house {
     display: flex;
     flex-direction: column;
