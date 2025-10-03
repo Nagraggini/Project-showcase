@@ -9,6 +9,11 @@
   padding: 10px; /*Párnázás, belső margó.*/
 }
 
+.buttons-container {
+  padding: 20px;
+  text-align: center;
+}
+
 .back-button,
 .submit-button {
   background-color: #5e1354; /* Gomb háttérszíne */
@@ -26,6 +31,7 @@
   font-weight: bold; /* Félkövér szöveg */
   position: relative; /* Relatív pozíció a fénycsíkhoz */
   overflow: hidden; /* Elrejtjük a túlcsorduló tartalmat */
+  margin: 10px 40px; /* Növelt vízszintes margó a gombok között */
 }
 
 .back-button::before,
@@ -58,18 +64,6 @@
 .submit-button:focus {
   background-color: #b5a9a9; /* Háttérszín változás focus esetén */
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
-}
-
-/* Gombokat tartalmazó konténer */
-.button-container {
-  display: flex;
-  /* A gombok egymás mellé rendezése */
-  gap: 20px;
-  /* Térköz a gombok között */
-  flex-wrap: wrap;
-  /* Ha nem fér el a gomb, új sorba kerül */
-  justify-content: center;
-  /* Középre igazítás */
 }
 
 @media (max-width: 600px) {

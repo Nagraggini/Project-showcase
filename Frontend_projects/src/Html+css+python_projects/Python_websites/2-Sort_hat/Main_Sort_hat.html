@@ -9,10 +9,19 @@ python -m http.server
     <meta charset="UTF-8" />
     <title>Sorting Hat</title>
     <link rel="stylesheet" href="styles_Sort_hat.css" />
+    <!--A weboldal ikonának beállítása.-->
+    <link
+      rel="website icon"
+      type="webp"
+      href="../../../../../Assets/Icons/website_icon.webp"
+    />
 
     <!-- PyScript import -->
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+     -->
+
+    <link rel="stylesheet" href="../../../background.css" />
   </head>
   <body>
     <h1>⚡ Hogwarts Sorting Hat ⚡</h1>
@@ -57,10 +66,20 @@ python -m http.server
       <label><input type="radio" name="q3" value="4" /> Drum</label>
     </fieldset>
 
-    <button id="btn">Sort me!</button>
+    <div id="buttons-container">
+      <button class="submit-button" id="submit-button">Sort me!</button>
+      <button
+        class="back-button"
+        id="back-button"
+        onclick="window.location.href='../../../../../index.html'"
+      >
+        Back
+      </button>
+    </div>
 
-    <h2>Results:</h2>
-    <div id="output"></div>
+    <div id="output" style="display: none">
+      <h2>Results:</h2>
+    </div>
 
     <!-- A külső Python fájl hivatkozása -->
     <py-script src="Sort_hat.py"></py-script>
