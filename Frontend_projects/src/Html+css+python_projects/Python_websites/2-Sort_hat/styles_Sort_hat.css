@@ -8,6 +8,7 @@
   display: grid;
   align-content: center;
 }
+
 /*Ha id-val hivatkozol, akkor kell elé a # */
 .buttons-container,
 .description,
