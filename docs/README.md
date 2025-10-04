@@ -9,7 +9,7 @@ Codedex
 
 ## You can start here
 
-[Project-showcase](https://nagraggini.github.io/Project-showcase/index.html)
+[Project showcase](https://nagraggini.github.io/Project-showcase/index.html)
 
 <!--[Project-showcase via Vercel](https://project-showcase-nagraggini.vercel.app)-->
 <!--[Project-showcase via Netlify](https://nagraggini.netlify.app)-->
