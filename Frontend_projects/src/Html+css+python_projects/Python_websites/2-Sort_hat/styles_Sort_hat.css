@@ -111,4 +111,20 @@ ul li::marker {
   .img {
     height: 50px;
   }
+
+  html,
+  body {
+    background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .questions-and-answers-container {
+    padding: 20px;
+    margin-left: 40px;
+    text-align: left;
+    align-self: flex-start; /* EZ BALRA IGAZÍTJA FLEXBOXBAN! */
+  }
 }
