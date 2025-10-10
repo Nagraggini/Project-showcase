@@ -67,13 +67,16 @@
 .submit-button:hover {
   transform: scale(1.05); /* Nagyítás hover esetén */
   background-color: #b5a9a9; /* Háttérszín változás hover esetén */
+  transition: all 200ms ease;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
 }
 
-.back-button:focus,
-.submit-button:focus {
+.back-button:active,
+.submit-button:active {
   background-color: #b5a9a9; /* Háttérszín változás focus esetén */
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* Csillogó hatás */
+  transform: scale(0.98);
+  transition: ease 100ms;
 }
 
 /* Linkek stílusa */
