@@ -1,0 +1,621 @@
+{
+  "id": "d98fa81f-3e13-4fc8-b5d6-e796fa1e01d4",
+  "version": "2.0",
+  "name": "Teszt",
+  "url": "https://nagraggini.github.io",
+  "tests": [{
+    "id": "bf72afe8-16b9-414a-b481-3fe981f49286",
+    "name": "Test case 1",
+    "commands": [{
+      "id": "928d0007-2f28-43c4-9507-e91fea31156a",
+      "comment": "",
+      "command": "open",
+      "target": "/Web-practising-and-fun/Main.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c83cc133-9f41-4073-8d3f-746379b87891",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e132b2f5-9c22-423e-a699-a1dfccafebd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol > li:nth-child(1) > button",
+      "targets": [
+        ["css=ol > li:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/Basic_For_Web_Development/Basic_For_Web_Development_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Webfejlesztés Áttekintő')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df0ad5e-0852-4a08-8be7-bdaacb20ea36",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='../../Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f27847d4-0056-4bba-a201-22d6a1f938c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=ol > li:nth-child(2) > button",
+      "targets": [
+        ["css=ol > li:nth-child(2) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/Basic_For_Web_Development/VS_Code_extension_list_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'VS Code kiegészítők listája')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da17e8d6-4ba5-48da-b449-60f6f7f27e2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='../../Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfcb17b2-7b04-402a-a9ab-dd0e938c0518",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3)",
+      "targets": [
+        ["css=li:nth-child(3)", "css:finder"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Hasznos linkek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d6c530-f8e7-4687-b5b8-620c8dadd9c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > button",
+      "targets": [
+        ["css=li:nth-child(3) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/Basic_For_Web_Development/Useful_links_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hasznos linkek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2b5587e-e029-4241-8181-f54e55d21ecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='../../Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde3c278-f981-4eb0-a6d9-786b9d816d0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > button",
+      "targets": [
+        ["css=li:nth-child(4) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/Basic_For_Web_Development/Web_Development_Course_Curriculum_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//li[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Webfejlesztő tanfolyam részletes tematika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e916bf-4c8f-4793-b565-2e1618d795b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='../../Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0431be62-0990-499a-9489-9738741abe38",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > button",
+      "targets": [
+        ["css=li:nth-child(5) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/Responsive design/Responsive design_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//li[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Reszponzív dizájn')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ecf8433-8bd5-4ce8-b8a9-852755b8d934",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(5) > li:nth-child(1) > button",
+      "targets": [
+        ["css=ul:nth-child(5) > li:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/First_website/First_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Első weboldalam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "784790b6-6174-495b-89b6-86317ec7329e",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(5) > li:nth-child(1) > button",
+      "targets": [
+        ["css=ul:nth-child(5) > li:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Web_Development/First_website/First_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//ul/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Első weboldalam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "134110c0-2942-4436-aacd-8da4423ab316",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf9d5862-0939-4e93-bbf5-689453871953",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='../../Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cd071bb-5e8e-4d31-b38f-ad3268e58419",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Webfejlesztési portfólió-ötletek (CV-ben)",
+      "targets": [
+        ["linkText=Webfejlesztési portfólió-ötletek (CV-ben)", "linkText"],
+        ["css=li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Webfejlesztési portfólió-ötletek (CV-ben)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://nagraggini.github.io/Project-showcase/index.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Webfejlesztési portfólió-ötletek (CV-ben)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9607edf2-9c08-446f-ba17-86de9a378dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(7) > li:nth-child(1) > button",
+      "targets": [
+        ["css=ul:nth-child(7) > li:nth-child(1) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Állásinterjús_kérdések_és_válaszok/Állásinterjús_kérdések_és_válaszok.html'\"]", "xpath:attributes"],
+        ["xpath=//ul[2]/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Állásinterjús kérdések és válaszok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "803da8f8-48e7-462a-b2fc-ce1c17010f00",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='back-btn ']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1af539-656d-40d9-8a60-923873b5b9d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='back-btn ']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4472d8b0-2963-4c8d-a636-a3ed426a56a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(7) > li:nth-child(2) > button",
+      "targets": [
+        ["css=ul:nth-child(7) > li:nth-child(2) > button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='For_new_job/For_new_job.html'\"]", "xpath:attributes"],
+        ["xpath=//ul[2]/li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tematika a tesztelés gyakorlásához')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78af602d-c114-41ef-907e-b96b3cc70c88",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e64498-2bf1-4751-a935-f8c75e9bf335",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(9) button",
+      "targets": [
+        ["css=ul:nth-child(9) button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='Cybersecurity/Cybersecurity_Main.html'\"]", "xpath:attributes"],
+        ["xpath=//ul[3]/li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kiberbiztonság')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71f0269a-112f-4c25-bd90-d17b82bf30ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick=\"location.href='../Main.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Vissza')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf1529a-9e6e-4f99-8d6a-b094c75e3b1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=github.com/Nagraggini",
+      "targets": [
+        ["linkText=github.com/Nagraggini", "linkText"],
+        ["css=li:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'github.com/Nagraggini')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://github.com/Nagraggini')]", "xpath:href"],
+        ["xpath=//footer/ul/li/button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'github.com/Nagraggini')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9147",
+      "windowTimeout": 2000
+    }, {
+      "id": "016463af-1916-412f-9b9b-97401b84c7ed",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dec1c49-0063-49ef-85d9-e4f574c9bb75",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9147}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85e5fb33-f6a5-45bf-b8cb-a38d7e3db398",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea6a1cda-b81b-4995-8cda-2b66567e9a49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Webfejlesztési portfólió-ötletek (CV-ben)",
+      "targets": [
+        ["linkText=Webfejlesztési portfólió-ötletek (CV-ben)", "linkText"],
+        ["css=li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Webfejlesztési portfólió-ötletek (CV-ben)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://nagraggini.github.io/Project-showcase/index.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Webfejlesztési portfólió-ötletek (CV-ben)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa405df3-b88a-4a64-afc0-b13d222d672e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Calculator (Built with HTML, CSS, and JavaScript)",
+      "targets": [
+        ["linkText=Go to Calculator (Built with HTML, CSS, and JavaScript)", "linkText"],
+        ["css=ul:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Calculator (Built with HTML, CSS, and JavaScript)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/src/Html+css+javascript_projects/1-Calculator/Main_Calculator.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Calculator (Built with HTML, CSS, and JavaScript)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33c41da-4338-4e25-8add-5c2cc4c512f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.back-button",
+      "targets": [
+        ["css=.back-button", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location.href='../../../../../index.html'\"]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f895c0d7-8f60-4017-af1b-8cb07c7645a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Go to Quiz App (Built with HTML, CSS, and JavaScript)",
+      "targets": [
+        ["linkText=Go to Quiz App (Built with HTML, CSS, and JavaScript)", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Quiz App (Built with HTML, CSS, and JavaScript)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/src/Html+css+javascript_projects/2-Quiz_App/Main_Quiz_App.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Go to Quiz App (Built with HTML, CSS, and JavaScript)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c6f9a11-5eca-48a9-9902-dd66ae74247d",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) li:nth-child(1) > label",
+      "targets": [
+        ["css=li:nth-child(1) li:nth-child(1) > label", "css:finder"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e5b0f69-c32b-4890-9728-5ce649e379aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) li:nth-child(1) > label",
+      "targets": [
+        ["css=li:nth-child(2) li:nth-child(1) > label", "css:finder"],
+        ["xpath=//li[2]/ul/li/label", "xpath:position"],
+        ["xpath=//label[contains(.,'were')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c64fa8-ac70-41e7-9ac8-336d450bf8c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) li:nth-child(1)",
+      "targets": [
+        ["css=li:nth-child(3) li:nth-child(1)", "css:finder"],
+        ["xpath=//li[3]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ad071a-fc2c-4086-9d79-6f2515b1053b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) li:nth-child(1) > label",
+      "targets": [
+        ["css=li:nth-child(3) li:nth-child(1) > label", "css:finder"],
+        ["xpath=//li[3]/ul/li/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc8729ca-9a53-4e69-8a5e-549029fdf796",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) li:nth-child(1) > label",
+      "targets": [
+        ["css=li:nth-child(4) li:nth-child(1) > label", "css:finder"],
+        ["xpath=//li[4]/ul/li/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8571d2c-288a-4dba-a4c0-ecfd12e1ef14",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) li:nth-child(1) > label",
+      "targets": [
+        ["css=li:nth-child(5) li:nth-child(1) > label", "css:finder"],
+        ["xpath=//li[5]/ul/li/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a488a32f-3866-4847-982e-119e2b2827ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [
+        ["id=submitBtn", "id"],
+        ["css=#submitBtn", "css:finder"],
+        ["xpath=//button[@id='submitBtn']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a277f20-53cd-4df8-85de-fd6e2dc95e7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.back-button",
+      "targets": [
+        ["css=.back-button", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location.href='../../../../../index.html'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a803397b-8090-42ae-b03d-9b82eb1f5a7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > a",
+      "targets": [
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to Rock, Paper, Scissors game (Built with HTML, CSS, and\n          JavaScript)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/src/Html+css+javascript_projects/3-RockPaperScissors-Game/Main_Stone_game.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "492d4a91-1205-4b91-89f0-cf92fa2c3a5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rock-btn > img",
+      "targets": [
+        ["css=#rock-btn > img", "css:finder"],
+        ["xpath=//img[@alt='Rock']", "xpath:img"],
+        ["xpath=//button[@id='rock-btn']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "528b7c62-87f0-4cda-aac3-dea2e1f232bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#paper-btn > img",
+      "targets": [
+        ["css=#paper-btn > img", "css:finder"],
+        ["xpath=//img[@alt='Paper']", "xpath:img"],
+        ["xpath=//button[@id='paper-btn']/img", "xpath:idRelative"],
+        ["xpath=//button[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a44a2065-5c61-495a-abe1-d09e799c9d2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#scissors-btn > img",
+      "targets": [
+        ["css=#scissors-btn > img", "css:finder"],
+        ["xpath=//img[@alt='Scissors']", "xpath:img"],
+        ["xpath=//button[@id='scissors-btn']/img", "xpath:idRelative"],
+        ["xpath=//button[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ab06e9-1a94-4318-a225-2f6137143592",
+      "comment": "",
+      "command": "click",
+      "target": "css=.back-button",
+      "targets": [
+        ["css=.back-button", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location.href='../../../../../index.html'\"]", "xpath:attributes"],
+        ["xpath=//body/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7906632-3d8a-4982-b62a-0266846da523",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(6) a",
+      "targets": [
+        ["css=ul:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Go to the Harry Potter Sorting Hat (Built with HTML, CSS, JavaScript\n          - Work in progress')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'Frontend_projects/src/Html+css+javascript_projects/4-Sort_hat/Main_Sort_hat.html')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b464d547-9c88-4c42-9862-d682f3c35d65",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset:nth-child(1) > label:nth-child(2)",
+      "targets": [
+        ["css=fieldset:nth-child(1) > label:nth-child(2)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,' Dawn')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "109934ed-3c9d-431f-97af-43f2d5ba7a6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset:nth-child(2) > label:nth-child(2)",
+      "targets": [
+        ["css=fieldset:nth-child(2) > label:nth-child(2)", "css:finder"],
+        ["xpath=//fieldset[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' The Good')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e787f6a-b771-458c-af52-de6699069a68",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset:nth-child(3) > label:nth-child(2)",
+      "targets": [
+        ["css=fieldset:nth-child(3) > label:nth-child(2)", "css:finder"],
+        ["xpath=//fieldset[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Violin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de2bd2c9-d0ae-49ed-9054-73377a704a62",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-button",
+      "targets": [
+        ["id=submit-button", "id"],
+        ["css=#submit-button", "css:finder"],
+        ["xpath=//button[@id='submit-button']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sort me!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe1dabe4-9b53-49d5-99fe-cfd10ae1a8ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=back-button",
+      "targets": [
+        ["id=back-button", "id"],
+        ["css=#back-button", "css:finder"],
+        ["xpath=//button[@id='back-button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fe14f80-dc9b-40cd-b496-6f78be1512e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CodeHub Tech",
+      "targets": [
+        ["linkText=CodeHub Tech", "linkText"],
+        ["css=p:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CodeHub Tech')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/codehub_tech/p/C5zuPCMS8EN/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CodeHub Tech')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a0f867ec-b9e6-4e90-a4b7-11ab25d8f63a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bf72afe8-16b9-414a-b481-3fe981f49286"]
+  }],
+  "urls": ["https://nagraggini.github.io/"],
+  "plugins": []
+}
