@@ -1,6 +1,7 @@
 html,
 body {
-    background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%);
+    background: linear-gradient(135deg, #c0d7df 0%, #dbe6f6 50%, #a0b4c8 100%),
+        no-repeat;
     font-family: Arial, sans-serif;
     height: 100%;
     margin: 0;
@@ -24,12 +25,12 @@ h1 {
 .buttons-container,
 .description,
 .questions-and-answers-container {
-    padding: 20px;
+    padding: 15px;
     align-content: left;
 }
 
 .questions-and-answers-container {
-    padding: 20px;
+    padding: 15px;
     margin-left: 400px;
     text-align: left;
     align-self: flex-start; /* EZ BALRA IGAZÍTJA FLEXBOXBAN! */
