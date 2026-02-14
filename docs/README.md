@@ -27,10 +27,9 @@ Codedex
 
 #### Future Projects
 
-- The Harry Potter Sorting Hat (Built with HTML, CSS, Python) - Work in progress
-- Calculator (Built with HTML, CSS, Python) - Work in progress
-- Note App 1 (built with HTML, CSS, JavaScript, Python, Flask, and SQLite) - Work in progress
-- Note App 2 (built with React, Node.js, and SQLite) - Work in progress
+- The Harry Potter Sorting Hat (Built with HTML, CSS, Java) - Work in progress
+- Calculator (Built with HTML, CSS, Java) - Work in progress
+- Note App 1 (Java servlet) - Work in progress
 - Stopwatch App
 - QR Code Reader
 - Weather App
