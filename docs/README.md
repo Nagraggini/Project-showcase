@@ -24,12 +24,11 @@ Codedex
 - Quiz App (Built with HTML, CSS, and JavaScript)
 - Rock, Paper, Scissors game (Built with HTML, CSS, and JavaScript)
 - The Weather app (Built with HTML, CSS, JavaScript, and Azure)
+- Animal Shelter (Java, Spring Boot, PostgreSQL, JPA, Hibernate, HTML, CSS, JavaScript) - I am working on this website.
 
 #### Future Projects
 
 - The Harry Potter Sorting Hat (Built with HTML, CSS, Javascript, Java) - Work in progress
-- Calculator (Built with HTML, CSS, Javascript, Java) - Work in progress
-- Note App 1 (Built with HTML, CSS, Javascript, Java servlet) - Work in progress
 - Stopwatch App
 - QR Code Reader
 - Weather App
@@ -110,8 +109,8 @@ or Flask/Django REST API with SQLite/Postgres
 ## Tech Stack
 
 - **Frontend**: HTML / CSS / JavaScript
-- **Backend**: Python (Flask/FastAPI), Azure
-
+- **Backend**: Java (Spring Boot)
+  
 ## Frontend–Backend Connection
 
 The frontend communicates with the backend via RESTful APIs:
