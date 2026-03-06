@@ -1,103 +1,195 @@
-<!--Győződj meg róla, hogy a böngésző nem cache-eli a régi CSS fájlt:
-Próbáld meg frissíteni az oldalt a böngészőben a cache törlésével (Ctrl + F5).
--->
-
-<!--
-Snippet shortcut:
-https://docs.emmet.io/cheat-sheet/
--->
-
 <!doctype html>
 <html lang="hu">
     <head>
-        <link rel="stylesheet" href="index.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
         <!--A weboldal ikonának beállítása.-->
         <link
             rel="icon"
             type="image/webp"
             href="../../../../../Assets/Icons/website_icon.webp"
         />
+
         <title>Andrea Freud | Junior Java Backend Developer Portfolio</title>
     </head>
 
-    <body>
-        <div class="container">
-            <h1>Andrea Freud – Junior Java Backend Developer</h1>
+    <body class="bg-slate-950 text-white">
+        <!-- Animated gradient background -->
+        <div
+            class="fixed inset-0 -z-10 bg-gradient-to-br from-slate-950 via-purple-950 to-slate-900"
+        ></div>
 
-            <p>
-                I am a Junior Java Backend Developer focused on building
-                applications with Spring Boot and PostgreSQL. I am continuously
-                improving my backend development skills through practical
-                projects.
-            </p>
+        <div class="relative max-w-6xl mx-auto px-6 py-12">
+            <!-- HERO SECTION -->
 
-            <h2>Backend & Full-Stack Projects</h2>
-            <h3>Ongoing Projects (Work in Progress)</h3>
-            <section>
-                <ul>
-                    <li>
-                        <strong>Animal Shelter Web Application</strong> –
+            <header class="text-center mb-20">
+                <h1 class="text-5xl font-bold mb-6">
+                    Andrea Freud – Junior Java Backend Developer
+                </h1>
+
+                <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                    I am a Junior Java Backend Developer focused on building
+                    applications with Spring Boot and PostgreSQL. I continuously
+                    improve my backend development skills through practical
+                    projects and learning modern software development practices.
+                </p>
+            </header>
+
+            <!-- TECH STACK -->
+
+            <section class="mb-20">
+                <h2 class="text-3xl font-bold mb-8 text-center">Tech Stack</h2>
+
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg">Java</span>
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg"
+                        >Spring Boot</span
+                    >
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg"
+                        >PostgreSQL</span
+                    >
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg"
+                        >REST API</span
+                    >
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg"
+                        >Hibernate</span
+                    >
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg">JPA</span>
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg">HTML</span>
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg">CSS</span>
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg"
+                        >JavaScript</span
+                    >
+                </div>
+            </section>
+
+            <!-- BACKEND PROJECTS -->
+
+            <section class="mb-20">
+                <h2 class="text-3xl font-bold mb-10">
+                    Backend & Full-Stack Projects
+                </h2>
+
+                <h3 class="text-gray-400 mb-6">
+                    Ongoing Projects (Work in Progress)
+                </h3>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div
+                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition"
+                    >
+                        <h4 class="text-xl font-semibold mb-3">
+                            Animal Shelter Web Application
+                        </h4>
+
+                        <p class="text-gray-400 mb-4">
+                            A full-stack web application for managing animal
+                            shelter records.
+                        </p>
+
+                        <p class="text-sm text-gray-500 mb-4">
+                            Java, Spring Boot, PostgreSQL, JPA, Hibernate, HTML,
+                            CSS, JavaScript
+                        </p>
+
                         <a
                             href="https://animal-shelter-hro5.onrender.com/"
                             target="_blank"
                             rel="noopener noreferrer"
+                            class="text-purple-400"
                         >
                             Live Demo
                         </a>
-                        (Java, Spring Boot, PostgreSQL, JPA, Hibernate, HTML,
-                        CSS, JavaScript)
-                    </li>
+                    </div>
 
-                    <li>
-                        <strong>Student registry App</strong> –
+                    <div
+                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition"
+                    >
+                        <h4 class="text-xl font-semibold mb-3">
+                            Student Registry App
+                        </h4>
+
+                        <p class="text-gray-400 mb-4">
+                            Application for managing and storing student data.
+                        </p>
+
+                        <p class="text-sm text-gray-500 mb-4">
+                            Java, Spring Boot, PostgreSQL, JPA, Hibernate, REST
+                            API
+                        </p>
+
                         <a
                             href="https://student-registry-app-2gv1.onrender.com/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            >Live Demo </a
-                        >(Java, Spring Boot, PostgreSQL, JPA, Hibernate, HTML,
-                        CSS, JavaScript, REST API)
-                    </li>
-                </ul>
+                            class="text-purple-400"
+                        >
+                            Live Demo
+                        </a>
+                    </div>
+                </div>
             </section>
 
-            <h3>Completed Projects</h3>
-            <section>
-                <ul>
-                    <li>
-                        <a
-                            href="Frontend_projects/src/Html+css+javascript_projects/1-Calculator/Main_Calculator.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >Calculator</a
-                        >
-                        (Built with HTML, CSS, and JavaScript)
-                    </li>
-                    <li>
-                        <a
-                            href="Frontend_projects/src/Html+css+javascript_projects/2-Quiz_App/Main_Quiz_App.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >Quiz Application
-                        </a>
-                        (Built with HTML, CSS, and JavaScript)
-                    </li>
-                    <li>
-                        <a
-                            href="Frontend_projects/src/Html+css+javascript_projects/3-RockPaperScissors-Game/Main_Stone_game.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >Rock, Paper, Scissors Game
-                        </a>
-                        (Built with HTML, CSS, and JavaScript)
-                    </li>
-                </ul>
+            <!-- FRONTEND PROJECTS -->
+
+            <section class="mb-20">
+                <h3 class="text-2xl font-bold mb-8">Completed Projects</h3>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <a
+                        href="Frontend_projects/src/Html+css+javascript_projects/1-Calculator/Main_Calculator.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition"
+                    >
+                        <h4 class="text-xl font-semibold mb-3">Calculator</h4>
+
+                        <p class="text-gray-400">
+                            Built with HTML, CSS, and JavaScript
+                        </p>
+                    </a>
+
+                    <a
+                        href="Frontend_projects/src/Html+css+javascript_projects/2-Quiz_App/Main_Quiz_App.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition"
+                    >
+                        <h4 class="text-xl font-semibold mb-3">
+                            Quiz Application
+                        </h4>
+
+                        <p class="text-gray-400">
+                            Built with HTML, CSS, and JavaScript
+                        </p>
+                    </a>
+
+                    <a
+                        href="Frontend_projects/src/Html+css+javascript_projects/3-RockPaperScissors-Game/Main_Stone_game.html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition"
+                    >
+                        <h4 class="text-xl font-semibold mb-3">
+                            Rock Paper Scissors Game
+                        </h4>
+
+                        <p class="text-gray-400">
+                            Built with HTML, CSS, and JavaScript
+                        </p>
+                    </a>
+                </div>
             </section>
-            <h3>Planned Projects</h3>
-            <section>
-                <ul>
+
+            <!-- PLANNED PROJECTS -->
+
+            <section class="mb-20">
+                <h3 class="text-2xl font-bold mb-6">Planned Projects</h3>
+
+                <ul class="grid md:grid-cols-2 gap-3 text-gray-300">
                     <li>Currency Converter</li>
                     <li>To-Do List Application</li>
                     <li>Tic-Tac-Toe</li>
@@ -107,30 +199,46 @@ https://docs.emmet.io/cheat-sheet/
                     <li>Inventory Management System</li>
                 </ul>
 
-                <p>
-                    The project idea list is available here:<br /><br />
+                <div class="mt-8 text-gray-400">
+                    <p class="mb-2">The project idea list is available here:</p>
+
                     <a
                         href="https://www.instagram.com/codehub_tech/p/C5zuPCMS8EN/"
-                        >CodeHub Tech – Project ideas for web developer</a
-                    ><br />
+                        class="text-purple-400 block"
+                    >
+                        CodeHub Tech – Project ideas for web developer
+                    </a>
+
                     <a
                         href="https://www.datacamp.com/blog/java-projects-for-all-levels"
-                        >DataCamp – Java Projects For All Levels</a
-                    ><br />
-                    <a href="https://www.geeksforgeeks.org/blogs/java-projects/"
-                        >GeeksforGeeks – Java Project Ideas For Beginners and
-                        Advanced</a
+                        class="text-purple-400 block"
                     >
-                </p>
+                        DataCamp – Java Projects For All Levels
+                    </a>
+
+                    <a
+                        href="https://www.geeksforgeeks.org/blogs/java-projects/"
+                        class="text-purple-400 block"
+                    >
+                        GeeksforGeeks – Java Project Ideas
+                    </a>
+                </div>
             </section>
 
-            <footer>
-                <h2>Contact</h2>
-                <p>
+            <!-- CONTACT -->
+
+            <footer class="border-t border-slate-800 pt-10 text-center">
+                <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+
+                <p class="text-gray-400">
                     GitHub:
-                    <a href="https://github.com/Nagraggini"
-                        >github.com/Nagraggini</a
+                    <a
+                        href="https://github.com/Nagraggini"
+                        class="text-purple-400"
+                        target="_blank"
                     >
+                        github.com/Nagraggini
+                    </a>
                 </p>
             </footer>
         </div>
