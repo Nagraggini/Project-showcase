@@ -11,31 +11,23 @@ Codedex
 
 [Project showcase](https://nagraggini.github.io/Project-showcase/index.html)
 
-<!--[Project-showcase via Vercel](https://project-showcase-nagraggini.vercel.app)-->
-<!--[Project-showcase via Netlify](https://nagraggini.netlify.app)-->
-
 ## Current status, dependencies, future plans
 
 ### Project Ideas for Web Development
 
 #### Completed Projects
 
-- Calculator (Built with HTML, CSS, and JavaScript)
-- Quiz App (Built with HTML, CSS, and JavaScript)
-- Rock, Paper, Scissors game (Built with HTML, CSS, and JavaScript)
-- The Weather app (Built with HTML, CSS, JavaScript, and Azure)
-- Animal Shelter (Java, Spring Boot, PostgreSQL, JPA, Hibernate, HTML, CSS, JavaScript) - I am working on this website.
+- Calculator – Built with HTML, CSS, and JavaScript
 
-#### Future Projects
+-Quiz App – Built with HTML, CSS, and JavaScript
 
-- The Harry Potter Sorting Hat (Built with HTML, CSS, Javascript, Java) - Work in progress
-- Stopwatch App
-- QR Code Reader
-- Weather App
-- Ecommerce Website
-- Landing Page
-- Password Generator
-- etc.
+- Rock, Paper, Scissors – Built with HTML, CSS, and JavaScript
+
+#### Projects in Progress
+
+- Animal Shelter – Web application for managing animal adoptions and shelter data. – Built with Java, Spring Boot, PostgreSQL, JPA/Hibernate, REST API, Tailwind CSS, JavaScript
+
+- The Harry Potter Sorting Hat – Application for managing and storing student data. - Built with Java, Spring Boot, PostgreSQL, JPA/Hibernate, REST API, Tailwind CSS, JavaScript
 
 ### Future plans
 
