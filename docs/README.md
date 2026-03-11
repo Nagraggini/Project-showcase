@@ -9,7 +9,7 @@ Codedex
 
 ## You can start here
 
-[Project showcase](https://nagraggini.github.io/Project-showcase/index.html)
+[Project showcase](https://nagraggini.github.io/Project-showcase/)
 
 ## Current status, dependencies, future plans
 
