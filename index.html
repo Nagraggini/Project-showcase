@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="hu">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,10 +31,9 @@
                 </h1>
 
                 <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-                    I am a Junior Java Backend Developer focused on building
-                    applications with Spring Boot and PostgreSQL. I continuously
-                    improve my backend development skills by building practical
-                    projects.
+                    I build backend applications using Java and Spring Boot,
+                    focusing on clean architecture and practical
+                    problem-solving.
                 </p>
             </header>
 
@@ -48,6 +47,10 @@
                     <span class="bg-slate-800 px-4 py-2 rounded-lg"
                         >Spring Boot</span
                     >
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg"
+                        >Spring Security</span
+                    >
+                    <span class="bg-slate-800 px-4 py-2 rounded-lg">JWT</span>
                     <span class="bg-slate-800 px-4 py-2 rounded-lg"
                         >PostgreSQL</span
                     >
@@ -73,7 +76,7 @@
                     Backend & Full-Stack Projects
                 </h2>
 
-                <h3 class="text-gray-400 mb-6">
+                <h3 class="text-2xl font-bold mb-8">
                     Ongoing Projects (Work in Progress)
                 </h3>
 
@@ -96,7 +99,7 @@
 
                         <p class="text-sm text-gray-500 mb-4">
                             Java, Spring Boot, PostgreSQL, Spring Data JPA,
-                            Hibernate, HTML, CSS, JavaScript
+                            Hibernate, REST API
                         </p>
 
                         <p class="text-purple-400 font-medium">Live Demo →</p>
@@ -133,6 +136,23 @@
                 <h3 class="text-2xl font-bold mb-8">Completed Projects</h3>
 
                 <div class="grid md:grid-cols-3 gap-8">
+                    <a
+                        href="https://nagraggini-blog.onrender.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition duration-300 cursor-pointer"
+                    >
+                        <h4 class="text-xl font-semibold mb-3">
+                            My IT Blog (only Hungarian yet)
+                        </h4>
+
+                        <p class="text-gray-400">
+                            Built with Java, Spring Boot
+                        </p>
+                        <p class="text-purple-400">Live Demo →</p>
+                    </a>
+
+                    <!-- TODO  https://springboot-for-beginners.onrender.com -->
                     <a
                         href="Frontend_projects/src/Html+css+javascript_projects/1-Calculator/Main_Calculator.html"
                         target="_blank"
@@ -178,24 +198,6 @@
                         </p>
                         <p class="text-purple-400">Live Demo →</p>
                     </a>
-
-                    <a
-                        href="https://nagraggini-blog.onrender.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="bg-slate-900 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 hover:scale-105 transition duration-300 cursor-pointer"
-                    >
-                        <h4 class="text-xl font-semibold mb-3">
-                            My IT Blog (only Hungarian yet)
-                        </h4>
-
-                        <p class="text-gray-400">
-                            Built with Java, Spring Boot
-                        </p>
-                        <p class="text-purple-400">Live Demo →</p>
-                    </a>
-
-                    <!-- TODO  https://springboot-for-beginners.onrender.com -->
                 </div>
             </section>
 
@@ -204,39 +206,85 @@
             <section class="mb-20">
                 <h3 class="text-2xl font-bold mb-6">Planned Projects</h3>
 
-                <ul class="grid md:grid-cols-2 gap-3 text-gray-300">
-                    <li>Currency Converter</li>
-                    <li>To-Do List Application</li>
-                    <li>Tic-Tac-Toe</li>
-                    <li>Library Management System</li>
-                    <li>Simple Search Engine</li>
-                    <li>Chat Application</li>
-                    <li>Inventory Management System</li>
-                </ul>
+                <ul class="grid md:grid-cols-2 gap-4 text-gray-300">
+                    <li>
+                        <span class="font-semibold text-white"
+                            >Get Things Done</span
+                        >
+                        <span class="text-gray-400 text-sm"
+                            >(get-things-done)</span
+                        >
+                        – Simple task manager API for creating and managing
+                        tasks.
+                    </li>
+                    <li>
+                        <span class="font-semibold text-white"
+                            >Spring Boot Login and Registration</span
+                        >
+                        <span class="text-gray-400 text-sm"
+                            >(spring-boot-login-and-registration)</span
+                        >
+                        – User login and registration system using Spring Boot.
+                    </li>
+                    <li>
+                        <span class="font-semibold text-white"
+                            >Spring Boot JWT Auth</span
+                        >
+                        <span class="text-gray-400 text-sm"
+                            >(spring-boot-jwt-auth)</span
+                        >
+                        – Authentication REST API using Spring Boot, JWT, and
+                        Spring Security.
+                    </li>
+                    <li>
+                        <span class="font-semibold text-white"
+                            >Chat Application</span
+                        >
+                        <span class="text-gray-400 text-sm"
+                            >(chat-application)</span
+                        >
+                        – Real-time messaging application.
+                    </li>
 
+                    <li>
+                        <span class="font-semibold text-white"
+                            >Inventory Management System</span
+                        >
+                        <span class="text-gray-400 text-sm"
+                            >(inventory-management-system)</span
+                        >
+                        – Product and stock management system.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
                 <div class="mt-8 text-gray-400">
                     <p class="mb-2">The project idea list is available here:</p>
 
                     <a
                         href="https://www.instagram.com/codehub_tech/p/C5zuPCMS8EN/"
-                        class="text-purple-400 hover:text-purple-300 transition"
+                        target="_blank"
                         rel="noopener noreferrer"
+                        class="text-purple-400 hover:text-purple-300 transition"
                     >
                         CodeHub Tech – Project ideas for web developer
                     </a>
                     <br />
                     <a
                         href="https://www.datacamp.com/blog/java-projects-for-all-levels"
-                        class="text-purple-400 hover:text-purple-300 transition"
+                        target="_blank"
                         rel="noopener noreferrer"
+                        class="text-purple-400 hover:text-purple-300 transition"
                     >
                         DataCamp – Java Projects For All Levels
                     </a>
                     <br />
                     <a
                         href="https://www.geeksforgeeks.org/blogs/java-projects/"
-                        class="text-purple-400 hover:text-purple-300 transition"
+                        target="_blank"
                         rel="noopener noreferrer"
+                        class="text-purple-400 hover:text-purple-300 transition"
                     >
                         GeeksforGeeks – Java Project Ideas
                     </a>
@@ -252,9 +300,9 @@
                     GitHub:
                     <a
                         href="https://github.com/Nagraggini"
-                        class="text-purple-400 hover:text-purple-300 transition"
                         target="_blank"
                         rel="noopener noreferrer"
+                        class="text-purple-400 hover:text-purple-300 transition"
                     >
                         github.com/Nagraggini
                     </a>
@@ -263,9 +311,9 @@
                 <p class="text-gray-400">
                     <a
                         href="https://github.com/nagraggini/Project-showcase"
-                        class="text-purple-400 hover:text-purple-300 transition"
                         target="_blank"
                         rel="noopener noreferrer"
+                        class="text-purple-400 hover:text-purple-300 transition"
                     >
                         Source Code (Portfolio Website)
                     </a>
