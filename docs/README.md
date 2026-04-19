@@ -76,10 +76,10 @@ The projects become progressively more challenging, reflecting my continuous lea
 
 ---
 
-### 🔹 My IT Blog
-- **Description:** Blog application with content management features  
-- **Tech:** Java, Spring Boot  
-- **Status:** Live → https://nagraggini-blog.onrender.com/
+### 🔹 My IT Book
+- **Description:** A comprehensive IT guide from beginner to advanced levels. 
+- **Tech:** mdBook, GitHub Actions, GitHub Pages 
+- **Status:** Live → https://nagraggini.github.io/my-awesome-book/
 
 ---
 
